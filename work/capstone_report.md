@@ -1,4 +1,4 @@
--**Capstone Report **
+-**Capstone Report**
 
 -**Author:** Harshitha Vandavasi
 
@@ -10,11 +10,11 @@
 
 Copy this file to work/capstone_report.md and fill it in as you build. Sections 1–8 mirror the Pass / Needs-Work rubric axes, so nothing here is optional. Sections 0 and 9 are paper sections: your deployed research paper must carry both, and they're here so you never rebuild them from memory at ship time.
 
-##0.Abstract**
+##0.Abstract
 
 This project investigates which web pages should be prioritized for content refresh using search performance signals. The analysis was conducted on the FlyRank ML Internship dataset containing approximately 30,000 web pages and multiple SEO-related features. A supervised machine learning model was trained and evaluated using an honest validation strategy to rank pages according to their refresh priority. The model produced better ranking performance than a simple baseline and generated interpretable recommendations for editors. The resulting ranked action list is intended to support editorial decision-making and should be reviewed by humans before implementation.
 
-##1. Problem framing**
+##1. Problem framing
 
 The objective of this project is to help content teams identify which web pages should be refreshed first to improve search performance. Each row in the dataset represents a single web page. The model produces a ranked recommendation rather than making automatic decisions. Editors can use these rankings to prioritize their content update efforts. Incorrect recommendations may cause high-value pages to be overlooked or unnecessary work to be performed, so human review remains an important part of the workflow.
 
