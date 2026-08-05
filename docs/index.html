@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Content Refresh Prioritization using Machine Learning</title>
+
+<style>
+
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    max-width:1100px;
+    margin:auto;
+    padding:40px;
+    background:#f5f7fa;
+    color:#222;
+    line-height:1.7;
+}
+
+header{
+    text-align:center;
+    padding-bottom:25px;
+    border-bottom:3px solid #1f4e79;
+}
+
+h1{
+    color:#1f4e79;
+    font-size:42px;
+}
+
+h2{
+    margin-top:45px;
+    color:#1f4e79;
+    border-left:8px solid #1f4e79;
+    padding-left:12px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    margin-top:25px;
+    border-radius:10px;
+    box-shadow:0px 2px 10px rgba(0,0,0,.08);
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+table,th,td{
+    border:1px solid #ccc;
+}
+
+th{
+    background:#1f4e79;
+    color:white;
+}
+
+th,td{
+    padding:12px;
+}
+
+footer{
+    margin-top:60px;
+    padding:30px;
+    text-align:center;
+    color:#555;
+    border-top:2px solid #ddd;
+}
+
+.highlight{
+    background:#eef7ff;
+    padding:18px;
+    border-left:6px solid #1f4e79;
+    margin-top:15px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Content Refresh Prioritization using Machine Learning</h1>
+
+<p><b>Google Search Ranking & Discoverability Capstone</b></p>
+
+<p>FlyRank ML Internship 2026</p>
+
+</header>
+
+<div class="card">
+
+<h2>Abstract</h2>
+
+<p>
+
+This project investigates which web pages should be prioritized for content refresh using search performance signals.
+
+The analysis was performed using the anonymized FlyRank SEO dataset containing approximately 30,000 content records.
+
+Machine Learning models were trained and compared with a rule-based baseline to identify pages with declining performance.
+
+The resulting ranked recommendation list helps editors focus on high-impact pages while maintaining human decision making.
+
+This work provides a practical decision-support system rather than an automated publishing solution.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>1. Problem Statement</h2>
+
+<p>
+
+Content teams often manage thousands of pages.
+
+Refreshing every page is expensive and inefficient.
+
+This project aims to identify which pages should be refreshed first by analysing search performance indicators.
+
+The objective is to help editors prioritize their work using data-driven recommendations.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>2. Dataset</h2>
+
+<ul>
+
+<li>Dataset: FlyRank ML Internship Dataset</li>
+
+<li>Total Records: 30,000</li>
+
+<li>Total Features: 44</li>
+
+<li>Public anonymized dataset</li>
+
+<li>No URLs or client identifiers used</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>3. Methodology</h2>
+
+<ul>
+
+<li>Data Cleaning</li>
+
+<li>Feature Engineering</li>
+
+<li>Target Label Creation</li>
+
+<li>Baseline Rule Model</li>
+
+<li>Random Forest Classification</li>
+
+<li>Client Hold-out Validation</li>
+
+<li>Leakage Prevention</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>4. Results</h2>
+
+<table>
+
+<tr>
+
+<th>Method</th>
+
+<th>Description</th>
+
+</tr>
+
+<tr>
+
+<td>Baseline</td>
+
+<td>Rule-based prioritization</td>
+
+</tr>
+
+<tr>
+
+<td>Machine Learning</td>
+
+<td>Higher Precision@50 and better ranking quality</td>
+
+</tr>
+
+</table>
+
+<div class="highlight">
+
+The Machine Learning model produced a more accurate ranked recommendation list than the baseline approach and better identified pages requiring editorial review.
+
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>5. Limitations</h2>
+
+<ul>
+
+<li>Results are based on anonymized data.</li>
+
+<li>Model recommendations require human validation.</li>
+
+<li>No causal relationship with Google ranking is claimed.</li>
+
+<li>Results should be interpreted as decision support.</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>6. Ranked Recommendations</h2>
+
+<ol>
+
+<li>Refresh high-confidence declining pages first.</li>
+
+<li>Improve metadata for CTR optimization.</li>
+
+<li>Expand thin content where appropriate.</li>
+
+<li>Monitor low-confidence pages before editing.</li>
+
+<li>Review recommendations periodically.</li>
+
+</ol>
+
+</div>
+
+<div class="card">
+
+<h2>7. Reproducibility</h2>
+
+<p>
+
+Repository:
+
+<b>HV-flyrank-ml-internship</b>
+
+</p>
+
+<p>
+
+Notebook:
+
+<b>work/notebooks/capstone.ipynb</b>
+
+</p>
+
+<p>
+
+Environment:
+
+Python 3.x
+
+Scikit-Learn
+
+Pandas
+
+NumPy
+
+Matplotlib
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>8. Acknowledgements</h2>
+
+<p>
+
+Built using the FlyRank ML Internship Dataset.
+
+Special thanks to the FlyRank Machine Learning Internship Program for providing the anonymized dataset and project framework.
+
+</p>
+
+</div>
+
+<footer>
+
+<p>
+
+© 2026 FlyRank ML Internship Capstone
+
+</p>
+
+</footer>
+
+</body>
+
+</html>
